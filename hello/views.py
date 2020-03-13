@@ -8,7 +8,6 @@ from django.http import JsonResponse
 def home(request):
     name = request.GET['name']
     age = request.GET['age']
-    getRequestDict = request.GET;
-    # return JsonResponse(getRequestDict,encoder='utf-8')
-    return JsonResponse(getRequestDict, safe=False)
- 
+    getRequestDict = request.GET
+    return JsonResponse(getRequestDict)
+    
