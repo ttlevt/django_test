@@ -10,5 +10,5 @@ def home(request):
     age = request.GET['age']
     getRequestDict = request.GET;
     # return JsonResponse(getRequestDict,encoder='utf-8')
-    return JsonResponse(getRequestDict, encoder='utf-8')
+    return JsonResponse(getRequestDict)
  
