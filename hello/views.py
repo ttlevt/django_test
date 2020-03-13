@@ -11,4 +11,4 @@ def home(request):
     getRequestDict = request.GET;
     # return JsonResponse(getRequestDict,encoder='utf-8')
     return JsonResponse(getRequestDict, encoder='utf-8')
-
+ 
